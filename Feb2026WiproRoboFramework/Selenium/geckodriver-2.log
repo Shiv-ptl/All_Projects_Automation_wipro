@@ -1,0 +1,21 @@
+1771475454130	geckodriver	INFO	Listening on 127.0.0.1:60876
+1771475457279	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60877" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\LENOVO\\AppData\\Local\\Temp\\rust_mozprofilefKFClc"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1771475457784	Marionette	INFO	Marionette enabled
+1771475457983	Marionette	INFO	Listening on port 55564
+Read port: 
+1771475457987	geckodriver::browser	WARN	Failed fo convert  to u16
+WebDriver BiDi listening on ws://127.0.0.1:60877
+Read port: 55564
+1771475458256	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: [Exception... "Favicon at "https://rahulshettyacademy.com/AutomationPractice/images/rs_logo.png" is too large."  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource:///modules/FaviconLoader.sys.mjs :: decodeImage :: line 85"  data: no]
+JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 56: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:56:588
+i/<@https://connect.facebook.net/en_US/fbevents.js:200:242
+
+1771475551803	Marionette	INFO	Stopped listening on port 55564
+JavaScript error: resource://gre/modules/PrivateBrowsingUtils.sys.mjs, line 19: TypeError: can't access property "isChromeWindow", aWindow is null
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.

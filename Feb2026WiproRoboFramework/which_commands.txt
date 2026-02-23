@@ -1,0 +1,22 @@
+pip install selenium
+
+pip install robotframework
+
+
+•Command to install selenium
+•cmd> pip install selenium
+•Command to install Robot framework
+•cmd> pip install robotframework
+•cmd> pip show selenium
+•cmd >pip show robotframework
+
+•pip install –-upgrade robotframework
+•pip install robotframework == 2.9.0
+•pip uninstall robotframework
+•pip list
+•pip show robotframework
+•Pip check robotframework
+
+
+robot Testcase1.robot   ---> run robot file
+robot .\Testcase2.robot

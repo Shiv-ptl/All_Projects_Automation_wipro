@@ -1,0 +1,21 @@
+https://amazon.in/mobiles/samasung - URL unified resource locator
+mobile - resource
+amazon.in - domian name
+https - protcool
+mobiles/samasung  - path parameters - path where the resource location is in the server
+query parameters ?=lion + africa\
+
+
+https://restful-api.dev/
+get - sinlge resource
+
+get - multilpe resource inf
+
+get - all info
+
+get - to read the resource only
+
+post - create resource
+
+
+ https://fakestoreapi.com/docs

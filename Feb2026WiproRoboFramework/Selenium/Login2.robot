@@ -1,0 +1,26 @@
+*** Settings ***
+
+Library     SeleniumLibrary
+
+*** Variables ***
+${url}      https://www.saucedemo.com/
+*** Test Cases ***
+Varify login scenarios with valid credentials
+        Open Browser        ${url}      firefox
+        #maximize the browser window
+        Maximize Browser Window
+        #wait till the element is loaded
+        Wait Until Element Is Visible       xpath://input[@name='username']
+        #enter the text in the username
+        Input Text    xpath://input[@name='username']       Admin
+
+        Input Text    xpath://input[@name='password']     admin123
+        #click login button
+        Click Element    xpath://button[@type='submit']
+        #validate the userid on the home page
+        Wait Until Element Is Visible       xpath://j6[@class='oxd-text oxd-text--h6 oxd-topbar-header-breadcrumb-module']
+
+        Element Should Be Visible    xpath://h6[@class='oxd-text oxd-text--h6 oxd-topbar-header-breadcrumb-module']
+        #close Browser
+        Close Browser
+

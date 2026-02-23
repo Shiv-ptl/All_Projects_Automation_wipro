@@ -1,0 +1,129 @@
+
+
+1) You have a fixture with scope="module" and three test functions in the same file use it.
+How many times will the fixture execute?
+
+A) 1		/
+B) 2
+C) 3
+D) Depends on parameters
+
+
+
+2) A test is marked with @pytest.mark.skipif(sys.platform == "win32").
+What happens when executed on Windows?
+
+A) Test fails
+B) Test passes
+C) Test is skipped		///
+D) Test is retried
+
+
+3) You want to run only tests marked as regression. Which command is correct?
+
+A) pytest -k regression
+B) pytest -m regression	//
+C) pytest --regression
+D) pytest -r regression
+
+
+4) A fixture uses yield instead of return. What is the main purpose?
+
+A) Parameterization
+B) Parallel execution
+C) Setup and teardown handling	///
+D) Logging
+
+
+5) What happens if assert fails inside a test?
+
+A) Test continues
+B) Test stops and marked failed		//
+C) Test marked skipped
+D) Test retried automatically
+
+
+
+========================
+
+6) Two fixtures depend on each other circularly. What happens?
+
+A) Pytest resolves automatically
+B) Infinite recursion
+C) Fixture error during collection		///
+D) Test skipped
+
+
+7) You use @pytest.mark.parametrize with 3 values and the test fails for one value.
+How many test results are shown?
+
+A) 1
+B) 2
+C) 3		///
+D) Depends on scope
+
+
+8) You run pytest -x. What happens?
+
+A) Stop after first failure		/
+B) Retry failed tests
+C) Run in parallel
+D) Skip failed tests
+
+
+9) A fixture has scope="session" and is used across multiple test files.
+How many times does it execute?
+
+A) Once per file
+B) Once per class
+C) Once per session		///
+D) Once per test
+
+
+10) You want to dynamically generate tests during collection phase.
+Which hook is used?
+
+A) pytest_configure
+B) pytest_generate_tests		//
+C) pytest_sessionstart
+D) pytest_runtest_call
+
+
+11) What is the purpose of conftest.py?
+
+A) Store test cases
+B) Store reusable fixtures and hooks		//
+C) Run parallel tests
+D) Configure browser
+
+
+12) If strict=True is used with xfail and test passes, what happens?
+
+A) Test passes normally
+B) Test fails		//
+C) Test skipped
+D) Test retried
+
+
+13) When using pytest -n 4 (xdist), what is required?
+
+A) Selenium Grid
+B) pytest-parallel
+C) pytest-xdist plugin	///
+D) Threading module
+
+
+14) If a fixture raises an exception during setup, what happens?
+
+A) Test fails
+B) Test skipped
+C) Error is reported and test not executed		///
+D) Test retried
+
+
+15) You want to share fixture across multiple directories.
+Where should it be placed?
+
+A) test file
+B) __init__.py
+C) Root level conftest.py		///

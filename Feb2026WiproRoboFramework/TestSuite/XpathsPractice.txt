@@ -1,0 +1,44 @@
+https://www.tutorialspoint.com/selenium/practice/selenium_automation_practice.php
+
+Login
+Username
+Rel XPath //input[@id='email']
+/html/body/main/div/div/div[2]/form/div[1]/div/input
+//*[@id="email"]
+class   form-control
+id  email
+
+Password
+Rel XPath //input[@id='password']
+/html/body/main/div/div/div[2]/form/div[2]/div/input
+class   form-control
+id  password
+
+
+Register
+First Name
+Rel XPath //input[@id='firstname']
+/html/body/main/div/div/div[2]/form/div[1]/div/input
+class   form-control
+id  firstname
+
+
+lastname
+Rel XPath //input[@id='lastname']
+/html/body/main/div/div/div[2]/form/div[2]/div/input
+class   form-control
+id  lastname
+
+
+User Name
+Rel XPath //input[@id='username']
+/html/body/main/div/div/div[2]/form/div[3]/div/input
+class   form-control
+id  username
+
+
+Password
+Rel XPath //input[@id='password']
+/html/body/main/div/div/div[2]/form/div[4]/div/input
+class   form-control
+id  password

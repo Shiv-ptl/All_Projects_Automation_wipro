@@ -1,0 +1,14 @@
+1771588266371	geckodriver	INFO	Listening on 127.0.0.1:55524
+1771588269429	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55525" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\LENOVO\\AppData\\Local\\Temp\\rust_mozprofilebWY1ff"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1771588269758	Marionette	INFO	Marionette enabled
+1771588269883	Marionette	INFO	Listening on port 49761
+WebDriver BiDi listening on ws://127.0.0.1:55525
+Read port: 49761
+1771588270077	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1771588277773	Marionette	INFO	Stopped listening on port 49761
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+JavaScript error: resource:///actors/LinkHandlerParent.sys.mjs, line 34: InvalidStateError: CanvasRenderingContext2D.drawImage: Passed-in video frame is "broken"
