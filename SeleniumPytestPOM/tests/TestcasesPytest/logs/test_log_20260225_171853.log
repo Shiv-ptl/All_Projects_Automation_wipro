@@ -1,0 +1,35 @@
+2026-02-25 17:18:53,488 - INFO - xdist worker is: gw2
+2026-02-25 17:18:53,488 - INFO - xdist worker is: gw0
+er ======
+2026-02-25 17:18:53,489 - INFO - xdist worker is: gw1
+2026-02-25 17:18:53,489 - INFO - ====== WebDriver manager ======
+2026-02-25 17:18:53,489 - INFO - ====== WebDriver manager ======
+2026-02-25 17:18:55,116 - INFO - Get LATEST geckodriver version for 148.0 firefox
+2026-02-25 17:18:55,132 - INFO - Get LATEST geckodriver version for 148.0 firefox
+2026-02-25 17:18:55,138 - INFO - Get LATEST geckodriver version for 148.0 firefox
+2026-02-25 17:18:56,110 - INFO - Get LATEST geckodriver version for 148.0 firefox
+2026-02-25 17:18:56,111 - INFO - Get LATEST geckodriver version for 148.0 firefox
+2026-02-25 17:18:56,852 - INFO - Driver [C:\Users\LENOVO\.wdm\gw0\drivers\geckodriver\win64\v0.36.0\geckodriver.exe] found in cache
+2026-02-25 17:18:56,856 - INFO - Driver [C:\Users\LENOVO\.wdm\gw2\drivers\geckodriver\win64\v0.36.0\geckodriver.exe] found in cache
+2026-02-25 17:18:56,868 - INFO - Driver [C:\Users\LENOVO\.wdm\gw1\drivers\geckodriver\win64\v0.36.0\geckodriver.exe] found in cache
+2026-02-25 17:19:13,245 - INFO - xdist worker is: gw2
+2026-02-25 17:19:13,246 - INFO - ====== WebDriver manager ======
+2026-02-25 17:19:14,237 - INFO - xdist worker is: gw0
+2026-02-25 17:19:14,237 - INFO - ====== WebDriver manager ======
+2026-02-25 17:19:14,442 - INFO - Get LATEST geckodriver version for 148.0 firefox
+2026-02-25 17:19:14,872 - INFO - xdist worker is: gw1
+2026-02-25 17:19:14,872 - INFO - ====== WebDriver manager ======
+2026-02-25 17:19:14,891 - INFO - Get LATEST geckodriver version for 148.0 firefox
+2026-02-25 17:19:15,363 - INFO - Driver [C:\Users\LENOVO\.wdm\gw2\drivers\geckodriver\win64\v0.36.0\geckodriver.exe] found in cache
+2026-02-25 17:19:15,383 - INFO - Get LATEST geckodriver version for 148.0 firefox
+2026-02-25 17:19:15,825 - INFO - Get LATEST geckodriver version for 148.0 firefox
+2026-02-25 17:19:15,996 - INFO - Get LATEST geckodriver version for 148.0 firefox
+2026-02-25 17:19:16,279 - INFO - Driver [C:\Users\LENOVO\.wdm\gw0\drivers\geckodriver\win64\v0.36.0\geckodriver.exe] found in cache
+2026-02-25 17:19:16,445 - INFO - Get LATEST geckodriver version for 148.0 firefox
+2026-02-25 17:19:16,882 - INFO - Driver [C:\Users\LENOVO\.wdm\gw1\drivers\geckodriver\win64\v0.36.0\geckodriver.exe] found in cache
+2026-02-25 17:19:31,116 - INFO - xdist worker is: gw2
+2026-02-25 17:19:31,116 - INFO - ====== WebDriver manager ======
+2026-02-25 17:19:32,359 - INFO - Get LATEST geckodriver version for 148.0 firefox
+2026-02-25 17:19:32,889 - INFO - Get LATEST geckodriver version for 148.0 firefox
+2026-02-25 17:19:33,356 - INFO - Driver [C:\Users\LENOVO\.wdm\gw2\drivers\geckodriver\win64\v0.36.0\geckodriver.exe] found in cache
+2026-02-25 17:19:41,259 - INFO - Entering the credentials

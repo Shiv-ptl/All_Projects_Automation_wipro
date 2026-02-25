@@ -1,0 +1,69 @@
+2026-02-25 16:05:10,864 - INFO - xdist worker is: gw6
+2026-02-25 16:05:10,865 - INFO - ====== WebDriver manager ======
+2026-02-25 16:05:10,865 - INFO - ====== WebDriver manager ======
+2026-02-25 16:05:10,865 - INFO - ====== WebDriver manager ======
+2026-02-25 16:05:10,865 - INFO - ====== WebDriver manager ======
+2026-02-25 16:05:10,865 - INFO - ====== WebDriver manager ======
+2026-02-25 16:05:10,865 - INFO - ====== WebDriver manager ======
+2026-02-25 16:05:10,865 - INFO - ====== WebDriver manager ======
+2026-02-25 16:05:12,578 - INFO - Get LATEST geckodriver version for 148.0 firefox
+2026-02-25 16:05:12,593 - INFO - Get LATEST geckodriver version for 148.0 firefox
+2026-02-25 16:05:12,593 - INFO - Get LATEST geckodriver version for 148.0 firefox
+2026-02-25 16:05:12,600 - INFO - Get LATEST geckodriver version for 148.0 firefox
+2026-02-25 16:05:12,610 - INFO - Get LATEST geckodriver version for 148.0 firefox
+2026-02-25 16:05:12,625 - INFO - Get LATEST geckodriver version for 148.0 firefox
+2026-02-25 16:05:13,559 - INFO - Get LATEST geckodriver version for 148.0 firefox
+2026-02-25 16:05:13,560 - INFO - Get LATEST geckodriver version for 148.0 firefox
+2026-02-25 16:05:13,561 - INFO - Get LATEST geckodriver version for 148.0 firefox
+2026-02-25 16:05:13,561 - INFO - Get LATEST geckodriver version for 148.0 firefox
+2026-02-25 16:05:13,561 - INFO - Get LATEST geckodriver version for 148.0 firefox
+2026-02-25 16:05:13,562 - INFO - Get LATEST geckodriver version for 148.0 firefox
+2026-02-25 16:05:13,563 - INFO - Get LATEST geckodriver version for 148.0 firefox
+2026-02-25 16:05:14,267 - INFO - There is no [win64] geckodriver "v0.36.0" for browser firefox "148.0" in cache
+2026-02-25 16:05:14,267 - INFO - Get LATEST geckodriver version for 148.0 firefox
+2026-02-25 16:05:14,269 - INFO - There is no [win64] geckodriver "v0.36.0" for browser firefox "148.0" in cache
+2026-02-25 16:05:14,269 - INFO - Get LATEST geckodriver version for 148.0 firefox
+2026-02-25 16:05:14,274 - INFO - There is no [win64] geckodriver "v0.36.0" for browser firefox "148.0" in cache
+2026-02-25 16:05:14,274 - INFO - Get LATEST geckodriver version for 148.0 firefox
+2026-02-25 16:05:14,276 - INFO - There is no [win64] geckodriver "v0.36.0" for browser firefox "148.0" in cache
+2026-02-25 16:05:14,276 - INFO - Get LATEST geckodriver version for 148.0 firefox
+2026-02-25 16:05:14,278 - INFO - There is no [win64] geckodriver "v0.36.0" for browser firefox "148.0" in cache
+2026-02-25 16:05:14,278 - INFO - Get LATEST geckodriver version for 148.0 firefox
+2026-02-25 16:05:14,281 - INFO - There is no [win64] geckodriver "v0.36.0" for browser firefox "148.0" in cache
+2026-02-25 16:05:14,281 - INFO - Get LATEST geckodriver version for 148.0 firefox
+2026-02-25 16:05:14,283 - INFO - There is no [win64] geckodriver "v0.36.0" for browser firefox "148.0" in cache
+2026-02-25 16:05:14,283 - INFO - Get LATEST geckodriver version for 148.0 firefox
+2026-02-25 16:05:14,951 - INFO - Getting latest mozilla release info for v0.36.0
+2026-02-25 16:05:14,965 - INFO - Getting latest mozilla release info for v0.36.0
+2026-02-25 16:05:14,968 - INFO - Getting latest mozilla release info for v0.36.0
+2026-02-25 16:05:14,970 - INFO - Getting latest mozilla release info for v0.36.0
+2026-02-25 16:05:14,977 - INFO - Getting latest mozilla release info for v0.36.0
+2026-02-25 16:05:14,983 - INFO - Getting latest mozilla release info for v0.36.0
+2026-02-25 16:05:15,895 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-win64.zip
+2026-02-25 16:05:15,898 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-win64.zip
+2026-02-25 16:05:15,899 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-win64.zip
+2026-02-25 16:05:15,899 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-win64.zip
+2026-02-25 16:05:15,899 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-win64.zip
+2026-02-25 16:05:15,900 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-win64.zip
+2026-02-25 16:05:15,901 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-win64.zip
+2026-02-25 16:05:17,288 - INFO - Driver downloading response is 200
+2026-02-25 16:05:17,290 - INFO - Driver downloading response is 200
+2026-02-25 16:05:17,298 - INFO - Driver downloading response is 200
+2026-02-25 16:05:17,306 - INFO - Driver downloading response is 200
+2026-02-25 16:05:17,312 - INFO - Driver downloading response is 200
+2026-02-25 16:05:17,315 - INFO - Driver downloading response is 200
+2026-02-25 16:05:17,320 - INFO - Driver downloading response is 200
+2026-02-25 16:05:18,895 - INFO - Get LATEST geckodriver version for 148.0 firefox
+2026-02-25 16:05:19,005 - INFO - Get LATEST geckodriver version for 148.0 firefox
+2026-02-25 16:05:19,514 - INFO - Driver has been saved in cache [C:\Users\LENOVO\.wdm\gw5\drivers\geckodriver\win64\v0.36.0]
+2026-02-25 16:05:19,548 - INFO - Get LATEST geckodriver version for 148.0 firefox
+2026-02-25 16:05:19,573 - INFO - Driver has been saved in cache [C:\Users\LENOVO\.wdm\gw1\drivers\geckodriver\win64\v0.36.0]
+2026-02-25 16:05:19,925 - INFO - Get LATEST geckodriver version for 148.0 firefox
+2026-02-25 16:05:20,049 - INFO - Driver has been saved in cache [C:\Users\LENOVO\.wdm\gw6\drivers\geckodriver\win64\v0.36.0]
+2026-02-25 16:05:20,408 - INFO - Driver has been saved in cache [C:\Users\LENOVO\.wdm\gw2\drivers\geckodriver\win64\v0.36.0]
+2026-02-25 16:05:20,501 - INFO - Get LATEST geckodriver version for 148.0 firefox
+2026-02-25 16:05:20,544 - INFO - Get LATEST geckodriver version for 148.0 firefox
+2026-02-25 16:05:20,548 - INFO - Get LATEST geckodriver version for 148.0 firefox
+2026-02-25 16:05:21,007 - INFO - Driver has been saved in cache [C:\Users\LENOVO\.wdm\gw0\drivers\geckodriver\win64\v0.36.0]
+2026-02-25 16:05:21,064 - INFO - Driver has been saved in cache [C:\Users\LENOVO\.wdm\gw3\drivers\geckodriver\win64\v0.36.0]
+2026-02-25 16:05:21,079 - INFO - Driver has been saved in cache [C:\Users\LENOVO\.wdm\gw4\drivers\geckodriver\win64\v0.36.0]

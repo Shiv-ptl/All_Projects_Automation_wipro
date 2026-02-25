@@ -1,0 +1,19 @@
+2026-02-25 17:13:25,742 - INFO - xdist worker is: gw1
+2026-02-25 17:13:25,742 - INFO - xdist worker is: gw2
+2026-02-25 17:13:25,743 - INFO - ====== WebDriver manager ======
+2026-02-25 17:13:25,743 - INFO - ====== WebDriver manager ======
+2026-02-25 17:13:27,469 - INFO - Get LATEST edgedriver version for Edge 145.0.3800
+2026-02-25 17:13:27,471 - INFO - Get LATEST edgedriver version for Edge 145.0.3800
+2026-02-25 17:13:27,495 - INFO - Get LATEST edgedriver version for Edge 145.0.3800
+2026-02-25 17:13:28,032 - INFO - xdist worker is: gw1
+2026-02-25 17:13:28,032 - INFO - ====== WebDriver manager ======
+2026-02-25 17:13:28,050 - INFO - xdist worker is: gw0
+2026-02-25 17:13:28,051 - INFO - ====== WebDriver manager ======
+2026-02-25 17:13:28,078 - INFO - xdist worker is: gw2
+2026-02-25 17:13:28,078 - INFO - ====== WebDriver manager ======
+2026-02-25 17:13:29,627 - INFO - Get LATEST edgedriver version for Edge 145.0.3800
+2026-02-25 17:13:29,636 - INFO - Get LATEST edgedriver version for Edge 145.0.3800
+2026-02-25 17:13:29,652 - INFO - Get LATEST edgedriver version for Edge 145.0.3800
+2026-02-25 17:13:29,832 - INFO - xdist worker is: gw1
+2026-02-25 17:13:29,833 - INFO - ====== WebDriver manager ======
+2026-02-25 17:13:30,954 - INFO - Get LATEST edgedriver version for Edge 145.0.3800

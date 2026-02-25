@@ -1,0 +1,15 @@
+2026-02-25 16:21:45,414 - INFO - xdist worker is: gw2
+2026-02-25 16:21:45,414 - INFO - xdist worker is: gw0
+2026-02-25 16:21:45,415 - INFO - ====== WebDriver manager ======
+2026-02-25 16:21:45,415 - INFO - ====== WebDriver manager ======
+2026-02-25 16:21:45,415 - INFO - xdist worker is: gw1
+2026-02-25 16:21:45,415 - INFO - ====== WebDriver manager ======
+2026-02-25 16:21:47,050 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-25 16:21:47,069 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-25 16:21:47,081 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-25 16:21:47,790 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-25 16:21:47,809 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-25 16:21:47,823 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-25 16:21:48,481 - INFO - Driver [C:\Users\LENOVO\.wdm\gw1\drivers\chromedriver\win64\145.0.7632.117\chromedriver-win32/chromedriver.exe] found in cache
+2026-02-25 16:21:48,496 - INFO - Driver [C:\Users\LENOVO\.wdm\gw2\drivers\chromedriver\win64\145.0.7632.117\chromedriver-win32/chromedriver.exe] found in cache
+2026-02-25 16:21:48,514 - INFO - Driver [C:\Users\LENOVO\.wdm\gw0\drivers\chromedriver\win64\145.0.7632.117\chromedriver-win32/chromedriver.exe] found in cache
