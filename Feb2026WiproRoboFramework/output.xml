@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.1 (Python 3.14.0 on win32)" generated="2026-02-26T10:40:04.391791" rpa="false" schemaversion="5">
+<suite id="s1" name="Frames" source="C:\Users\LENOVO\PycharmProjects\All_Projects_Automation_wipro\Feb2026WiproRoboFramework\Selenium\Frames.robot">
+<test id="s1-t1" name="Varify Frames" line="10">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-02-26T10:40:04.698965" level="INFO">Opening browser 'chrome' to base url 'https://jqueryui.com/datepicker/'.</msg>
+<arg>${url}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-02-26T10:40:04.697698" elapsed="4.022383"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-02-26T10:40:08.721095" elapsed="0.075347"/>
+</kw>
+<kw name="Set Selenium Implicit Wait" owner="SeleniumLibrary">
+<arg>3s</arg>
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<status status="PASS" start="2026-02-26T10:40:08.797083" elapsed="0.001907"/>
+</kw>
+<kw name="Select Frame" owner="SeleniumLibrary">
+<msg time="2026-02-26T10:40:08.799905" level="INFO">Selecting frame 'xpath://iframe[@class='demo-frame']'.</msg>
+<arg>xpath://iframe[@class='demo-frame']</arg>
+<doc>Sets frame identified by ``locator`` as the current frame.</doc>
+<status status="PASS" start="2026-02-26T10:40:08.799393" elapsed="0.104235"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-02-26T10:40:08.904456" level="INFO">Clicking element 'xpath://input[@id='datepicker']'.</msg>
+<arg>xpath://input[@id='datepicker']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-26T10:40:08.904166" elapsed="0.358690"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-02-26T10:40:11.264659" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-02-26T10:40:09.263468" elapsed="2.001413"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-02-26T10:40:11.265824" level="INFO">Clicking element 'xpath://a[contains(text(),'21')]'.</msg>
+<arg>xpath://a[contains(text(),'21')]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-26T10:40:11.265450" elapsed="0.172009"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-02-26T10:40:14.439077" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-02-26T10:40:11.438018" elapsed="3.001232"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-02-26T10:40:14.439757" elapsed="2.293816"/>
+</kw>
+<status status="PASS" start="2026-02-26T10:40:04.696547" elapsed="12.037675"/>
+</test>
+<status status="PASS" start="2026-02-26T10:40:04.393255" elapsed="12.341826"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Frames" id="s1" pass="1" fail="0" skip="0">Frames</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
