@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.1 (Python 3.14.0 on win32)" generated="2026-02-27T14:05:23.232199" rpa="false" schemaversion="5">
+<suite id="s1" name="Day13" source="C:\Users\LENOVO\PycharmProjects\All_Projects_Automation_wipro\SeleniumPytestPOM\LabSession\Assignments\day13.robot">
+<kw name="Open Application" type="SETUP">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-02-27T14:05:23.505811" level="INFO">Opening browser 'chrome' to base url 'https://opensource-demo.orangehrmlive.com'.</msg>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-02-27T14:05:23.505485" elapsed="6.782938"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-02-27T14:05:30.288641" elapsed="0.033297"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>name=username</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-02-27T14:05:30.322132" elapsed="0.673436"/>
+</kw>
+<status status="PASS" start="2026-02-27T14:05:23.504451" elapsed="7.491239"/>
+</kw>
+<test id="s1-t1" name="Verify Login Flow" line="52">
+<kw name="Login And Get Title">
+<kw name="Login To Application">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-02-27T14:05:30.997345" level="INFO">Typing text 'Admin' into text field 'name=username'.</msg>
+<arg>name=username</arg>
+<arg>${username}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-27T14:05:30.997080" elapsed="0.105511"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-02-27T14:05:31.103388" level="INFO">Typing text 'admin123' into text field 'name=password'.</msg>
+<arg>name=password</arg>
+<arg>${password}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-27T14:05:31.102949" elapsed="0.114462"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-02-27T14:05:31.217851" level="INFO">Clicking button 'xpath=//button[@type='submit']'.</msg>
+<arg>xpath=//button[@type='submit']</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-27T14:05:31.217614" elapsed="3.971344"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>xpath=//h6[text()='Dashboard']</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-02-27T14:05:35.189132" elapsed="0.654251"/>
+</kw>
+<arg>${username}</arg>
+<arg>${password}</arg>
+<status status="PASS" start="2026-02-27T14:05:30.996763" elapsed="4.846992"/>
+</kw>
+<kw name="Get Dashboard Title">
+<kw name="Get Text" owner="SeleniumLibrary">
+<msg time="2026-02-27T14:05:35.865984" level="INFO">${title} = Dashboard</msg>
+<var>${title}</var>
+<arg>xpath=//h6[text()='Dashboard']</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-27T14:05:35.844476" elapsed="0.021555"/>
+</kw>
+<return>
+<value>${title}</value>
+<status status="PASS" start="2026-02-27T14:05:35.866129" elapsed="0.000064"/>
+</return>
+<msg time="2026-02-27T14:05:35.866326" level="INFO">${title} = Dashboard</msg>
+<var>${title}</var>
+<status status="PASS" start="2026-02-27T14:05:35.844117" elapsed="0.022232"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-02-27T14:05:35.866758" level="INFO">Dashboard Title: Dashboard</msg>
+<arg>Dashboard Title: ${title}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-02-27T14:05:35.866479" elapsed="0.000318"/>
+</kw>
+<arg>Admin</arg>
+<arg>admin123</arg>
+<status status="PASS" start="2026-02-27T14:05:30.996460" elapsed="4.870399"/>
+</kw>
+<kw name="Logout From Application" type="TEARDOWN">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-02-27T14:05:35.868120" level="INFO">Clicking element 'xpath=//p[@class='oxd-userdropdown-name']'.</msg>
+<arg>xpath=//p[@class='oxd-userdropdown-name']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-27T14:05:35.867803" elapsed="0.097681"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-02-27T14:05:35.966053" level="INFO">Clicking element 'xpath=//a[text()='Logout']'.</msg>
+<arg>xpath=//a[text()='Logout']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-27T14:05:35.965741" elapsed="3.403707"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>name=username</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-02-27T14:05:39.369622" elapsed="0.642900"/>
+</kw>
+<status status="PASS" start="2026-02-27T14:05:35.867487" elapsed="4.145162"/>
+</kw>
+<status status="PASS" start="2026-02-27T14:05:30.995771" elapsed="9.017224"/>
+</test>
+<kw name="Close Browser" owner="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-02-27T14:05:40.014710" elapsed="2.216460"/>
+</kw>
+<status status="PASS" start="2026-02-27T14:05:23.234119" elapsed="18.997138"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Day13" id="s1" pass="1" fail="0" skip="0">Day13</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2026-02-27T14:05:23.226928" level="WARN">Error in file 'C:\Users\LENOVO\PycharmProjects\All_Projects_Automation_wipro\SeleniumPytestPOM\LabSession\Assignments\day13.robot' on line 29: The '[Return]' setting is deprecated. Use the 'RETURN' statement instead.</msg>
+</errors>
+</robot>
