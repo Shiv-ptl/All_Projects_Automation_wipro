@@ -3,7 +3,7 @@ import paramiko
 host = "localhost"
 port = 22
 username = "lenovo"
-password = "Shiv@94155@"
+password = ""
 
 client = paramiko.SSHClient()
 client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
